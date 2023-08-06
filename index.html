@@ -8,14 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="load-more-button.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="load-more-button.js"></script>
 </head>
 <body>
     <!----------------------------------------- Header ---------------------------------->
     <div class="background">
     <div class="header">
         <div class="one">
-            <img src="images/Link.svg" alt="Link">
-            <a href="" style="margin-left: 20px;">Solutions</a>
+            <img src="images/Link.svg" alt="Link" style="margin-left: 10px;">
+            <a href="" style="margin-left: 26px;">Solutions</a>
             <a href="">Products</a>
             <a href="">Platform</a>
             <a href="">Customers</a>
@@ -46,10 +51,10 @@
         <div class="flex-one">
             <h1>IT workflows</h1>
             <p>Workflows turn IT into an engine for growth. Seize the upside of operational resilience and raise employee agility.</p>
-            <button type="button" class="btn">Assess Agility</button>
+            <button type="button" class="btn2" style="margin-left: 0;width: 250px;margin-top: 30px;">Assess Agility</button>
         </div>
         <div class="flex-two">
-            <a href="images/it-workflows-marquee-medium.png.png" target="_blank"><img src="images/it-workflows-marquee-medium.png.png" alt="it-workflows-marquee-medium.png"></a>
+            <a href="https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/images/buyers-pod/products/marquee-images/it-workflows-marquee-medium.png" target="_blank"><img src="https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/images/buyers-pod/products/marquee-images/it-workflows-marquee-medium.png" alt="it-workflows-marquee-medium.png"></a>
         </div>
     </div>
 </div>
@@ -72,7 +77,7 @@
 <!-- ----------------------------------------------------------------- -->
 <div class="container">
     <div class="container-one">
-        <h1 class="main">
+        <h1 class="main m">
             Optimize IT service operations
         </h1>
         <p class="para">
@@ -93,7 +98,7 @@
 <!-- -------------------------------------------------------- -->
 <div class="container" style="display: flex;flex-direction: row-reverse;margin-top: -40px;">
     <div class="container-one">
-        <h1 class="main">
+        <h1 class="main m">
             Align investments to priorities
         </h1>
         <p class="para" style="font-size: 22.9px;">
@@ -114,7 +119,7 @@
 <!-- --------------------------------------------------------------- -->
 <div class="container">
     <div class="container-one">
-        <h1 class="main">
+        <h1 class="main m">
             Manage risk, security,
             and cost
         </h1>
@@ -136,8 +141,122 @@
     </div>
 </div>
 <div class="content">
-    <div class="article"></div>
-    <div class="image2"><a href="images/Capture3.PNG"><img src="images/Capture3.PNG" alt="Capture3"></a></div>
+    <div class="article">
+        <h1 class="main2" style="width: 550px;">
+            <div class="comma">&ldquo;</div><br>ServiceNow can help us on [our] journey by supporting our increasing adoption of the platform’s capabilities to implement new digital workflows.
+        </h1>
+        <h4>Jacob Elfving</h4>
+        <p class="rank">Development Manager, IT Operations,<br>Danske Bank</p>
+        <button type="button" class="btn2 b">Find Out How</button>
+    </div>
+    <div class="image2"><a href="images/Capture3.PNG"><img src="images/Capture3.PNG" alt="Capture3"></a>
+    </div>
 </div>
+<!-- ----------------------------------------------------------- -->
+<div class="main" style="margin-left: -200px;">
+    <h1>
+        Products to power your IT<br> workflows
+    </h1>
+</div>
+<div class="space">
+<div class="oneimagetext">
+    <a href="images/img1.svg"><img src="images/img1.svg" alt="img1"></a>
+    <div class="write">
+    <h2>IT Service Management</h2>
+    <p>Transform the impact, speed, and
+        delivery of IT with a modern service
+        management solution.
+    </p>
+    <button class="cta r">
+        <svg viewBox="0 0 46 16"  xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+            <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+        </svg>
+    </button>
+</div>
+</div>
+<!-- ------------------------------------------------- -->
+<div class="oneimagetext">
+    <a href="images/img2.svg"><img src="images/img2.svg" alt="img2"></a>
+    <div class="write">
+        <h2>IT Operations Management</h2>
+        <p>
+        Deliver high-performance business
+        services with visibility, health, and
+        optimization.
+        </p>
+        <button class="cta r">
+            <svg viewBox="0 0 46 16"  xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+                <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+<!-- ------------------------------------------------------------- -->
+<div class="oneimagetext" style="margin-left: -40px;">
+    <a href="images/img3.svg"><img src="images/img3.svg" alt="img3"></a>
+    <div class="write">
+        <h2>Strategic Portfolio
+            Management</h2>
+        <p>
+            Plan, prioritize, and track work
+            aligned to business objectives.
+        </p>
+        <button class="cta r">
+            <svg viewBox="0 0 46 16"  xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+                <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+</div>
+<hr style="border-bottom: 1px solid grey;margin: 0px 60px;">
+<!--  -->
+<!-- ------------------------------------------------ -->
+<!--  -->
+<div class="back">
+    <h1 class="h">
+        Built on the Now Platform
+    </h1>
+    <p class="newpara">Connect your enterprise through digital workflows with the Now Platform®. Drive transformation with cross-enterprise workflows on <br> a single, unified platform.</p>
+    <button type="button" class="btn2 b" style="margin-left: 0;margin-top: 30px;">Explore Platform</button>
+    <div class="flexthree">
+        <div class="flexthree-one">
+            <div class="write g">
+                <h2>Customer workflows</h2>
+                <p>
+                    Go beyond traditional CRM and field service to scale operations and drive customer loyalty.
+                </p>
+                <button class="cta r a">
+                    <svg viewBox="0 0 46 16"  xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+                        <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+                    </svg>
+                </button>
+        </div></div>
+        <div class="flexthree-one">
+            <div class="write g">
+                <h2>Employee workflows</h2>
+                <p>
+                    Create connected, engaging experiences so employees can get what they need, when they need it.
+                </p>
+                <button class="cta r">
+                    <svg viewBox="0 0 46 16"  xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+                        <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+                    </svg>
+                </button>
+        </div></div>
+        <div class="flexthree-one">
+            <div class="write g">
+    <h2>Creator workflows</h2>
+    <p>
+        Build cross-enterprise digital workflow apps fast with a low-code platform.
+    </p>
+    <button class="cta r">
+        <svg viewBox="0 0 46 16"  xmlns="http://www.w3.org/2000/svg" id="arrow-horizontal">
+            <path transform="translate(30)" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" data-name="Path 10" id="Path_10"></path>
+        </svg>
+    </button>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
